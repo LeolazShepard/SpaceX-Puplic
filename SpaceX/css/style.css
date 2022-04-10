@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+*,*:before,*:after{
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding: 0; border: 0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{
+    text-decoration: none;
+}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{
+    font-size: inherit;
+    font-weight: 400;
+}
+body{
+    font-family: Roboto, sans-serif;
+    background-color: #010001;
+    color: white;
+}
+body a{
+    color: white;
+}
+/*------Style for header------*/
+header{
+    padding-top:50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+header li{
+list-style: none;
+}
+.logo{
+    margin-top: -7px;
+    margin-left: 90px;
+}
+.satelliteMenu ul{
+    display: flex;
+    justify-content: center;
+}
+.satelliteMenu ul li{
+    font-size: 14px;
+    margin: 0px 10px 0px 10px;
+}
+.menu{
+    margin-right: 50px;
+    display: flex;
+    justify-content: flex-end;
+}
+.menu a{
+    color:#808080;
+}
+.menu ul{
+    display: flex;
+    justify-content: flex-end;
+}
+.menu ul li{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 20px;
+}
+/*------Style for main content------*/
+.verticalLine{
+    margin-top: 80px;
+    margin-left: 49%;
+    width: 59px;
+    height: 0px;
+    border: 1px solid #FFFFFF;
+    transform: rotate(90deg);
+}
+.mainContent{
+   margin-bottom: 189px; 
+}
+.mainTitle{
+    margin-top: 120px;
+}
+.mainTitle h1{
+    font-size: 64px;
+    text-align: center;
+    margin-bottom: 26px;
+}
+.textUnderTitle{
+    display: flex;
+    justify-content: center;
+}
+.mainTitle p{
+    line-height: 140%;
+    width: 256px;
+    font-weight: 300;
+    text-align: center;
+}
+.bigImg{
+    display: flex;
+    justify-content: center;
+}
+.bigImg img{
+max-width: 100%;
+}
+
+.rocketBlock{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.rocketImg > img{
+    height: 1600px;
+    width: 600px;
+}
+.textForRocket{
+    padding-left: 140px;
+    padding-top: 490px;
+}
+.bigTextH2{
+    line-height: 34px;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 700;
+}
+.satelliteCharacteristics{
+    margin-top: 45px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 11px;
+}
+.satelliteCharacteristics > div{
+    justify-self: start;
+}
+.characteristic{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 400;
+    line-height: 32px;
+}
+.value{
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+}
+.grayText{
+    color: #808080;
+}
+.performance{
+    margin-top: 218px;
+}
+.performance > h2{
+    margin-bottom: 45px;
+}
+.performanceText{
+font-weight: 400;
+font-size: 16px;
+line-height: 29px;
+}
+/*style for footer*/
+
+.footerMenu> p{
+    text-align: center;
+}
+.logoFooter{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 43px;
+}
+.footerMenu > ul{
+    display: flex;
+    justify-content: center;
+}
+.footerMenu > ul > li{
+    list-style: none;
+    margin:0px 10px 25px 10px;
+}
+.footerButton{
+    display: flex;
+    justify-content: center;
+}
+.footerButton > button{
+    font-size: 18px;
+    background-color: #010001;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    padding: 20px 86px 20px 86px;
+    border-radius: 6px;
+    margin: 30px 0px 50px 0px;
+}
